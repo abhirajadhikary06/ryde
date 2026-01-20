@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Vehicle Booking</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h2>Book a Service</h2>
+
+    <select id="service">
+      <option value="repair">Repair</option>
+      <option value="towing">Towing</option>
+    </select>
+
+    <select id="vehicle">
+      <option value="car">Car</option>
+      <option value="bike">Bike</option>
+      <option value="other">Other</option>
+    </select>
+
+    <input id="issue" placeholder="Issue description" />
+
+    <button onclick="book()">Book</button>
+    <a href="map.html">
+      <button>View Nearby Services on Map</button>
+    </a>
+
+    <script src="js/api.js"></script>
+    <script src="js/booking.js"></script>
+  </body>
+</html>
