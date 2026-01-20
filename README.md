@@ -1,11 +1,15 @@
-## Vehicle Booking Platform
+# README.md
 
-### Run Backend
+## Vehicle Repair & Towing Booking Platform
 
-cd backend
-pip install -r requirements.txt
-bash run.sh
+### Setup
 
-### Open Frontend
+1. Install backend dependencies: `pip install -r backend/requirements.txt`
+2. Run backend: `cd backend && ./run.sh`
+3. Open frontend/index.html in browser.
 
-Open frontend/index.html in browser
+### Notes
+
+- Replace API keys.
+- This is a basic implementation; expand as needed.
+- Database is SQLite for simplicity.
